@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C8EC61231A11E5D000C3C5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC61221A11E5D000C3C5F6 /* AppDelegate.swift */; };
-		C8EC61251A11E5D000C3C5F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC61241A11E5D000C3C5F6 /* ViewController.swift */; };
 		C8EC61281A11E5D000C3C5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EC61261A11E5D000C3C5F6 /* Main.storyboard */; };
 		C8EC612A1A11E5D000C3C5F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EC61291A11E5D000C3C5F6 /* Images.xcassets */; };
 		C8EC612D1A11E5D000C3C5F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EC612B1A11E5D000C3C5F6 /* LaunchScreen.xib */; };
 		C8EC61391A11E5D000C3C5F6 /* MillisecondsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC61381A11E5D000C3C5F6 /* MillisecondsTests.swift */; };
+		C8EC61421A11E64E00C3C5F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC61241A11E5D000C3C5F6 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EC61251A11E5D000C3C5F6 /* ViewController.swift in Sources */,
+				C8EC61421A11E64E00C3C5F6 /* ViewController.swift in Sources */,
 				C8EC61231A11E5D000C3C5F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +405,7 @@
 				C8EC613E1A11E5D000C3C5F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8EC613F1A11E5D000C3C5F6 /* Build configuration list for PBXNativeTarget "MillisecondsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				C8EC61411A11E5D000C3C5F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
